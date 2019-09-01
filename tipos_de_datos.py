@@ -33,7 +33,13 @@ bool("Hola")  # True
 
 
 # CADENA DE TEXTO (str)
+cadena = "Hola mundo"
+cadena2 = 'Hola mundo'
 
+print(cadena)
+print(cadena2)
+
+cadena3 = "Esto es una cadena\nEstoy en otra \"linea\""
 
 
 
