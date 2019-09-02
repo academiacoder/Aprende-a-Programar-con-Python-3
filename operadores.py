@@ -146,3 +146,41 @@ a = b
 b = a + b
 # print(a, b)
 
+
+# OPERADORES LÓGICOS Y DE PERTENENCIA
+
+# OPERADORES LÓGICOS
+# Los operadores lógicos nos permiten comprobar si se cumplen justamente comparaciones lógicas
+# normalmente se comparan valores booleanos pero Python permite operaciones lógicas con otros tipos de dato
+"""
+or -> a or b -> ¿Se cumplen a o b? -> Solo es Falso si todos los valores son Falsos!
+and -> a and b -> ¿Se cumplen a y b? -> Solo es Verdadero si todos los valores son Verdaderos!
+not -> not x -> contrario de x
+"""
+verdadero = True
+falso = False
+# print("Comparador OR:")
+# print(verdadero or falso, "\n")
+# print("Comparador AND:")
+# print(verdadero and falso)
+
+
+# OPERADORES DE PERTENENCIA
+# Los operadores de pertenencia evaluan si un objeto se encuentra dentro de otro
+"""
+in - Se encuentra en
+not in - No se encuentra en
+"""
+cadena = "AcademiaCoder"
+
+#print('Z' not in cadena)
+
+
+# OPERADORES DE IDENTIDAD
+# Los operadores de identidad nos permiten comprobar si un objeto es igual o no otro objeto
+# is y is not
+
+a = 10
+b = 10
+
+
