@@ -19,4 +19,15 @@ resultado = lambda numero: numero + 20
 
 suma = lambda numero1, numero2: numero1 + numero2
 
-print(suma(30, 60))
+# print(suma(30, 60))
+
+# RETURN
+# La declaración Return nos permite recibir datos de una función
+
+
+def multiplicar(num1, num2):
+    return num1 * num2
+
+
+res_multi = multiplicar(2, 10)
+print(res_multi)
