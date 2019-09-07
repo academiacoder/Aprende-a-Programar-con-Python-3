@@ -24,6 +24,7 @@ SINO
 si_es_hombre = False
 eres_alto = False
 
+"""
 print("ANTES DEL IF\n")
 
 if si_es_hombre and eres_alto:
@@ -39,5 +40,49 @@ print("\nFUERA DEL IF")
 
 # TAREA PARA LOS ALUMNOS PRACTICAR MUCHO UTILIZAR OR EN LUGAR DE AND, INVENTAR OTRA FORMA DE USAR
 # TODOS LOS CONDICIONALES IF, ELIF Y ELSE
+"""
+
+# UTILIZANDO CONDICIONALES Y COMPARACIONES
+
+"""
+
+
+
+
+def mayor_edad(num):
+    if num >= 18:
+        return True
+    else:
+        return False
+
+
+edad = input("Ingresa tu edad: ")
+
+if mayor_edad(int(edad)):
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+"""
+
+
+def mayor_numero(n1, n2, n3):
+    if n1 >= n2 and n1 >= n3:
+        return n1
+    if n2 >= n1 and n2 >= n3:
+        return n2
+    else:
+        return n3
+
+
+numero = mayor_numero(99, 556, 300)
+print(numero)
+
+# TAREA ESTUDIANTES: REALIZAR EJERCICIOS INVENTADOS PARA UTILIZAR CONDICIONALES Y COMPACIONES... MUCHOS!!!
+
+
+
+
+
+
 
 
