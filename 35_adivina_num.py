@@ -2,7 +2,7 @@
 
 import random
 
-# Generamos un número aleatorio entre 1 y 10
+# Generamos un número aleatorio entre 1 y 20
 adivina = random.randint(1, 20)
 
 print("Hola, Cómo te llamas?")
