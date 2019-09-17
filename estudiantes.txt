@@ -1,0 +1,4 @@
+Marcos Guerrini - Python
+Carlos Arriaga - JavaScript
+Natalia Violeta - UX
+Leandro Castillo - VueJS
