@@ -7,3 +7,7 @@ print(archivo_estudiantes.write("\nCarolina Massutti - ReactJS"))
 archivo_estudiantes.close()  # Así cerramos un archivo
 
 # Eliminar un archivo
+import os
+
+os.remove("estudiantes2.txt")
+
