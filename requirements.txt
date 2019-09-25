@@ -1,8 +1,2 @@
 lxml==4.4.1
-pbr==5.0.0
 python-docx==0.8.10
-six==1.11.0
-stevedore==1.29.0
-virtualenv==16.0.0
-virtualenv-clone==0.4.0
-virtualenvwrapper==4.8.2
