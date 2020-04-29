@@ -10,3 +10,18 @@ def tomar_extension(filename):
 
 def tirar_dado(num):
     return random.randint(1, num)
+
+
+class Estudiante:
+    def __init__(self, nombre, edad, curso_inicial):
+        self.nombre = nombre
+        self.edad = edad
+        self.curso_inicial = curso_inicial
+        self.esta_activo = True
+        self.cursos = [curso_inicial]
+
+    def desactivar(self):
+        self.esta_activo = False
+
+    def info(self):
+        print(f"Estudiante: {self.nombre}\nEdad: {self.edad}\nActivo: {self.esta_activo}\n")
